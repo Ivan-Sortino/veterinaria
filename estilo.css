@@ -62,12 +62,17 @@ nav a{
     width: 13%;
     margin-top: 2%;
     margin-left: 14%;
-    border: 2px solid #c94970;
+    border-style: none;
     border-radius: 7px;
     background-color: white;
     color: #f53A50;
     font-weight: 800;
     cursor: pointer;
+}
+.uno button:hover{
+    transition: .5s;
+    background-color: #f53A50;
+    color: white;
 }
 
 /* TERMINA EL HERO */
@@ -176,6 +181,10 @@ nav a{
     margin-top: 10%;
     cursor: pointer;
 }
+.range button:hover{
+    transition: .5s;
+    background-color: #c94970;
+}
 
 /* TERMINA EL PRODUCT RANGE */
 
@@ -211,6 +220,11 @@ nav a{
     font-weight: 800;
     margin-top: 3%;
     cursor: pointer;
+}
+.manuals button:hover{
+    transition: .5s;
+    background-color: #f53A50;
+    color: white;
 }
 
 /* TERMINA EL EBOOKS Y MANUALS */
@@ -375,10 +389,15 @@ nav a{
     font-weight: 800;
     background-color: white;
     color: #f53A50;
-    border: 1px solid;
+    border-style: none;
     border-radius: 7px;
     margin-top: 2%;
     cursor: pointer;
+}
+.warranty button:hover{
+    transition: .5s;
+    background-color: #f53A50;
+    color: white;
 }
 
 /* TERMINA EL WARRANTY CLAIM */
@@ -451,6 +470,10 @@ nav a{
     border-radius: 7px;
     box-shadow: 0 0 5px black;
     cursor: pointer;
+}
+.formulariomadre button:hover{
+    transition: .5s;
+    background-color: #c21d5f;
 }
 
 /* TERMINA EL FORMULARIO */
